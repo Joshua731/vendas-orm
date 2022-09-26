@@ -1,2 +1,3 @@
-# vendas-orm
-um sistema de vendas baseado nas técnicas de mapeamento objeto-relacional
+# Vendas-orm
+Um sistema de vendas baseado nas técnicas de mapeamento objeto-relacional
+## User stories
