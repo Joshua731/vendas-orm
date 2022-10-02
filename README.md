@@ -19,3 +19,9 @@ Dentro do projeto, os envolvidos são o **Cliente**, o **Vendedor** e o **Fornec
 #### Acceptance Criteria
 1 - **Dado** um produto que está na minha lista de compras, **quando** ele estiver na promoção, **então** efetuo a compra do produto.
 2 - **Dado** um produto que está na minha lista de compras, **quando** ele estiver fora do prazo de validade **então** procuro por outro produto.
+
+###Fornecedor
+####Acceptance Criteria
+
+##Modelo Relacional do Projeto (Imagem)
+![MER vendas-orm2](https://user-images.githubusercontent.com/88397658/193477780-b20b1bf9-d4b8-4b2f-9c75-9782074a1530.jpg)
