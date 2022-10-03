@@ -25,3 +25,8 @@ Dentro do projeto, os envolvidos são o **Cliente**, o **Vendedor** e o **Fornec
 
 ## Modelo Relacional do Projeto (Imagem)
 ![MER vendas-orm2](https://user-images.githubusercontent.com/88397658/193477780-b20b1bf9-d4b8-4b2f-9c75-9782074a1530.jpg)
+
+## Diagrama de Classes do projeto (Imagem)
+![uml orm vendas](https://user-images.githubusercontent.com/88397658/193490999-6a08a9a9-9f33-41e4-a420-80a56e1ae831.png)
+
+
