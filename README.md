@@ -13,15 +13,21 @@ Dentro do projeto, os envolvidos são o **Cliente**, o **Vendedor** e o **Fornec
 #### Acceptance Criteria
 **Dado** um produto não registrado, **quando** se obter um estoque suficiente para venda, **então** é realizado o seu registro no projeto.
 #### Definition of Done
+![Uploading definition of done orm.png…]()
 
 ### Cliente
 **Como** um Cliente, **quero** comprar os produtos que estão no projeto, **para que** o produto comprado me satisfaça.
 #### Acceptance Criteria
-1 - **Dado** um produto que está na minha lista de compras, **quando** ele estiver na promoção, **então** efetuo a compra do produto.
-2 - **Dado** um produto que está na minha lista de compras, **quando** ele estiver fora do prazo de validade **então** procuro por outro produto.
+1 - **Dado** um produto **quando** ele estiver cadastrado no projeto, **então** efetuo a compra do produto.
+#### Definition of Done
+![Uploading definition of done orm.png…]()
 
 ### Fornecedor
+**Como** um Fornecedor, **quero** reabastecer o meu cliente-vendedor dos produtos **para que** se cumpram meus contratos realizados com o mesmo
 #### Acceptance Criteria
+**Dado** um cliente-vendedor **quando** estiver com o estoque vazio **então** haverá um reabastecimento da minha parte
+#### Definition of Done
+![Uploading definition of done orm.png…]()
 
 ## Modelo Relacional do Projeto (Imagem)
 ![MER vendas-orm2](https://user-images.githubusercontent.com/88397658/193477780-b20b1bf9-d4b8-4b2f-9c75-9782074a1530.jpg)
