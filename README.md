@@ -19,7 +19,7 @@ Possibilidade de ver o produto cadastro dentro das tabelas do SGBD
 ### Cliente
 **Como** um Cliente, **quero** comprar os produtos que estão no projeto, **para que** o produto comprado me satisfaça.
 #### Acceptance Criteria
-1 - **Dado** um produto **quando** ele estiver cadastrado no projeto, **então** efetuo a compra do produto.
+**Dado** um produto **quando** ele estiver cadastrado no projeto, **então** efetuo a compra do produto.
 #### Definition of Done
 Possibilidade de se cadastrar no sistema do projeto
 Possibilidade de comprar um produto que está registrado no SGBD do projeto
