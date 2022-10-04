@@ -22,13 +22,15 @@ Possibilidade de ver o produto cadastro dentro das tabelas do SGBD
 1 - **Dado** um produto **quando** ele estiver cadastrado no projeto, **então** efetuo a compra do produto.
 #### Definition of Done
 Possibilidade de se cadastrar no sistema do projeto
-Possibilidade de comprar um produto que está registrado no produto
+Possibilidade de comprar um produto que está registrado no SGBD do projeto
 
 ### Fornecedor
-**Como** um Fornecedor, **quero** reabastecer o meu cliente-vendedor dos produtos **para que** se cumpram meus contratos realizados com o mesmo
+**Como** um Fornecedor, **quero** adicionar e visualizar meus produtos ao estoque **para que** eu possa ter a certeza de que eles estão da forma que os adicionei
 #### Acceptance Criteria
-**Dado** um cliente-vendedor **quando** estiver com o estoque vazio **então** haverá um reabastecimento da minha parte
+**Dado** um cliente-vendedor **quando** estiver com o estoque vazio **então** registrarei os meus produtos no estoque
 #### Definition of Done
+Possibilidade de registrar o produto no estoque
+Possibilidade de visualizar o produto registrado no estoque dentro do SGBD
 
 ## Modelo Relacional do Projeto (Imagem)
 ![MER vendas-orm2](https://user-images.githubusercontent.com/88397658/193477780-b20b1bf9-d4b8-4b2f-9c75-9782074a1530.jpg)
