@@ -14,6 +14,7 @@ Dentro do projeto, os envolvidos são o **Cliente**, o **Vendedor** e o **Fornec
 **Dado** um produto não registrado, **quando** se obter um estoque suficiente para venda, **então** é realizado o seu registro no projeto.
 #### Definition of Done
 Possibilidade de cadastrar o produto dentro do código do projeto
+
 Possibilidade de ver o produto cadastro dentro das tabelas do SGBD
 
 ### Cliente
@@ -22,6 +23,7 @@ Possibilidade de ver o produto cadastro dentro das tabelas do SGBD
 **Dado** um produto **quando** ele estiver cadastrado no projeto, **então** efetuo a compra do produto.
 #### Definition of Done
 Possibilidade de se cadastrar no sistema do projeto
+
 Possibilidade de comprar um produto que está registrado no SGBD do projeto
 
 ### Fornecedor
@@ -30,6 +32,7 @@ Possibilidade de comprar um produto que está registrado no SGBD do projeto
 **Dado** um cliente-vendedor **quando** estiver com o estoque vazio **então** registrarei os meus produtos no estoque
 #### Definition of Done
 Possibilidade de registrar o produto no estoque
+
 Possibilidade de visualizar o produto registrado no estoque dentro do SGBD
 
 ## Modelo Relacional do Projeto (Imagem)
