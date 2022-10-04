@@ -10,7 +10,7 @@ class Pessoa(Base):
     __tablename__ = "Pessoa"
     id_pessoa = Column(Integer, primary_key=True)
     nome = Column(String(150), nullable=False)
-    CPF = Column(Integer, nullable=False)
+    CPF = Column(String(150), nullable=False)
     children_pessoa_cliente = relationship('Cliente')
     children_pessoa_vendedor = relationship('Vendedor')
 
@@ -94,22 +94,22 @@ def main():
         session.add(pessoa)
 
         def cadastra_cliente():
-            cliente = Cliente()
+            cliente = Cliente(cliente_id_pessoa=1)
             session.add(cliente)
 
         def cadastra_vendedor():
-            vendedor = Vendedor()
+            vendedor = Vendedor(vendedor_id_pessoa=1)
             session.add(vendedor)
 
         def cadastra_venda():
-            venda = Venda(quant_produto=3)
+            venda = Venda(quant_produto=3, venda_id_vendedor=1, venda_id_cliente=1, venda_id_mercado=1)
             session.add(venda)
 
         cadastra_cliente()
         cadastra_vendedor()
         cadastra_venda()
 
-        cupom = Cupom(desconto=1.00)
+        cupom = Cupom(desconto=1.00, cupom_id_cliente=1, cupom_id_mercado=1)
         session.add(cupom)
 
         mercado = Mercado(nome_mercado='Sempre Mais')
@@ -118,7 +118,7 @@ def main():
         fornecedor = Fornecedor(nome_fornecedor="Sandro")
         session.add(fornecedor)
 
-        estoque = Estoque(quant_prod=100, produto="Banana", preco=2.00)
+        estoque = Estoque(quant_prod=100, produto="Banana", preco=2.00, estoque_id_fornecedor=1)
         session.add(estoque)
 
         estoque_evento = EventoEstoque(novo_preco=1.50, quant_estoque=99)
