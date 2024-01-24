@@ -82,12 +82,6 @@ class EventoEstoque(Base):
     quant_estoque = Column(Integer, nullable=False)
 
 
-class Teste(Base):
-    __tablename__ = "teste"
-
-    teste = Column(String(250), nullable=True)
-
-
 def main():
     engine = create_engine(url=URL)
     Base.metadata.drop_all(bind=engine)
